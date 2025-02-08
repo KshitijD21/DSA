@@ -10,11 +10,18 @@ public class MergeIntervals {
                 {0,0}
         };
 
-        interval(intervals);
+        int n = 2189;
+        System.out.println(2189 % 10);
+
+//        interval(intervals);
     }
 
     public static void interval(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+
+        StringBuilder sb = new StringBuilder("Hello");
+        char s = 'c';
+        System.out.println(Character.toLowerCase(s));
 
         System.out.println(Arrays.deepToString(intervals));
         System.out.println("Sorted intervals:");
